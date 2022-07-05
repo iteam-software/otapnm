@@ -1,0 +1,87 @@
+backend:
+  name: git-gateway
+  repo: iteam-consulting/return-to-me
+  branch: master
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - name: our-stories
+    label: Our Stories
+    folder: our-stories
+    identifier_field: name
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: content, label: Content, widget: markdown }
+
+  - name: annual_walk
+    label: Annual Walk
+    folder: annual-walk
+    identifier_field: event_title
+    create: true
+    fields:
+        - { name: event_title, label: Event Title }
+        - { name: event_date, label: Event Date, widget: date }
+        - { name: event_contact, label: Event Contact }
+        - { name: check_in_time, label: Check-in Time, widget: datetime }
+        - { name: start_time, label: Start Time, widget: datetime }
+
+
+  - name: scholarships
+    label: Scholarships 
+    folder: scholarships
+    identifier_field: recipient
+    create: true
+    fields:
+      - {name: recipient, label: Recipient }
+      - {name: year_received, label: Year Received, widget: date, format: YYYY }
+      - {name: essay, label: Essay, widget: file }
+      - {name: thumbnail, label: Essay Thumbnail, widget: image }
+
+  - name: carousel
+    label: Carousel Image
+    folder: carousel
+    identifier_field: image
+    widget: list
+    create: true
+    fields:
+      - {name: image, label: Image, widget: image }
+      - {name: alt_text, label: Alternative Text }
+
+  - name: newsletter
+    label: Newsletter
+    folder: newsletter
+    identifier_field: pdf
+    widget: list
+    create: true
+    fields:
+      - {name: pdf, label: Pdf, widget: file }
+
+  - name: scholarship_application
+    label: Scholarship Application
+    folder: scholarship_application
+    identifier_field: pdf
+    create: false
+    fields:
+      - {name: pdf, label: Pdf, widget: file }
+
+
+  - name: sponsor
+    label: Sponsor
+    folder: sponsor
+    identifier_field: name
+    create: true
+    fields: 
+      - {name: name, label: Sponsor Name, widget: string }
+      - {name: image, label: Sponsor Image, widget: image}
+      - {name: image_alt_text, label: Sponsor Image Alt Text, widget: string}
+      - label: "Address"
+        name: "address"
+        widget: "object"
+        fields:
+          - {label: Address, name: address, widget: string}
+          - {label: City, name: city, widget: string }
+          - {label: State, name: state, widget: string }
+          - {label: Zip Code, name: zip, widget: number }
+          
