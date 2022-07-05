@@ -1,14 +1,8 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Organ Transplant Awareness Program (OTAP) Website. 
+  Organ Transplant Awareness Program (OTAP) Website
 </h1>
 
-built with Gatsby, NetlifyCMS, Emotion, and React-Bootstrap
+Built with Gatsby, NetlifyCMS, Emotion, and React-Bootstrap
 
 ## 🚀 Quick start
 
@@ -18,17 +12,17 @@ built with Gatsby, NetlifyCMS, Emotion, and React-Bootstrap
 
     ```shell
     # clone the project
-    git clone https://github.com/iteam-consulting/return-to-me.git
+    git clone https://github.com/iteam-software/otapnm.git
     ```
+
 2.  **Install dependencies**
 
     Navigate to the root directory of the gatsby site.
 
     ```shell
     # install dependencies
-    cd ./return-to-me && yarn
+    cd ./otapnm && yarn
     ```
-
 
 2.  **Start developing.**
 
