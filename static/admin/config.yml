@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
-  repo: iteam-consulting/return-to-me
-  branch: master
+  repo: iteam-software/otapnm
 media_folder: static/assets
 public_folder: /assets
 
