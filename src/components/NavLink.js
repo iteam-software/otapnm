@@ -20,7 +20,7 @@ const NavLinkStyle = css`
   }
 `;
 const NavLink = ({ children, url }) => {
-  if (url?.includes(".pdf")) {
+  if (url.includes(".pdf")) {
     return (
       <a
         href={url}
