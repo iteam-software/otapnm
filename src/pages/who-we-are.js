@@ -84,54 +84,12 @@ const whoWeAre = ({ location }) => {
           </p>
         </PaperDiv>
         <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>Attend Social Gatherings</ContentHeader>
-          <p>
-            Summer Family Picnic, Holiday Party. Dinners- last Wednesday of the
-            month.
-          </p>
-        </PaperDiv>
-        <PaperDiv className="container-sm text-line-spacing-md">
           <ContentHeader>Become a member of OTAP</ContentHeader>
           <p>
             Receive a monthly informative newsletter, attend monthly meetings,
             volunteer at promotional events, be a scholarship essay reader, help
             with the newsletter, attend the support group be a mentor.
           </p>
-        </PaperDiv>
-      </PaperSection>
-      <PaperSection>
-        <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>President</ContentHeader>
-        </PaperDiv>
-        <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>
-            Evelyn Rivera, <span className="font-weight-light">Treasurer</span>
-          </ContentHeader>
-          <p>
-            Evelyn is a native New Mexican. She has two children and two
-            grandchildren. Being raised in a military family she has lived in
-            Europe, South America and several U.S. states. Her hobbies include
-            reading, hiking, Tai Chi, sewing and learning the history of New
-            Mexico. Her passion is promoting organ donation. Her first liver
-            transplant was in July of 2011 and her second was in February 2015.
-            She has enjoyed a 35 year career in real estate, most recently as a
-            residential real estate appraiser.
-          </p>
-        </PaperDiv>
-        <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>Acting Secretary</ContentHeader>
-        </PaperDiv>
-        <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>
-            Venae Warner,{" "}
-            <span className="font-weight-light">Support Group</span>
-          </ContentHeader>
-        </PaperDiv>
-        <PaperDiv className="container-sm text-line-spacing-md">
-          <ContentHeader>
-            Margaret Lopez,{" "}
-            <span className="font-weight-light">Scholarship Chairperson</span>
-          </ContentHeader>
         </PaperDiv>
       </PaperSection>
     </Layout>
