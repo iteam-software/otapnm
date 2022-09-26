@@ -78,9 +78,7 @@ if (data.allFile.nodes.length) {
         Membership
       </NavLink>
       <NavLink url="/transplant-info">Transplant Info</NavLink>
-      <NavLink url="/annual-walk">Annual Walk</NavLink>
       <NavLink url="/scholarship">Scholarship</NavLink>
-      <NavLink url="/calendar">Calendar</NavLink>
     </div>
   );
 };

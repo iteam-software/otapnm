@@ -22,7 +22,7 @@ const supportGroup = ({ location }) => {
       >
         <Col sm={{ span: 8, offset: 2 }}>
 
-          <h2 className="text-center">FOR INFORMATION PLEASE CONTACT VENAE <a href="tel:1-505-489-4829">505-489-4829</a></h2>
+          <h2 className="text-center">FOR INFORMATION PLEASE CONTACT EVELYN RIVERA <a href="tel:1-505-299-5955">505-299-5955</a></h2>
           
         </Col>
       </Row>

@@ -98,15 +98,6 @@ export default ({ location }) => {
                 </div>
               </div>
               <div className="py-2">
-                <h5>Venae Warner</h5>
-                <h6>Support Group Facilitator</h6>
-                <div className="text-black nav-link">
-                  <ContactInfo href="tel:505-344-0452">
-                    505-344-0452
-                  </ContactInfo>
-                </div>
-              </div>
-              <div className="py-2">
                 <h5>Margaret Lopez</h5>
                 <h6>Scholarship Chair</h6>
                 <div>
@@ -114,6 +105,12 @@ export default ({ location }) => {
                     silverlopez@aol.com
                   </ContactInfo>
                 </div>
+              </div>
+              <div className="py-2">
+                <h5>Patrica Pistorio</h5>
+              </div>
+              <div className="py-2">
+                <h5>Cathy Walters</h5>
               </div>
             </div>
           </div>
