@@ -107,7 +107,7 @@ export default ({ location }) => {
                 </div>
               </div>
               <div className="py-2">
-                <h5>Patrica Pistorio</h5>
+                <h5>Patricia Pistorio</h5>
               </div>
               <div className="py-2">
                 <h5>Cathy Walters</h5>
