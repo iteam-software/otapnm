@@ -1,4 +1,3 @@
 ---
-pdf: /assets/2022otapscholarshipapplication.pdf
+pdf: /assets/otap-scholarship-application.pdf
 ---
-
