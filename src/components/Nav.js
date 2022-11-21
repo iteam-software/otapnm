@@ -72,7 +72,7 @@ if (data.allFile.nodes.length) {
         &nbsp;
         Newsletter
       </NavLink>
-      <NavLink url="/assets/2021membershipform.pdf">
+      <NavLink url="/assets/2023membershipform.pdf">
         <FaRegFilePdf className="text-danger" />
         &nbsp;
         Membership

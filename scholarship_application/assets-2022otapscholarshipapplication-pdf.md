@@ -1,3 +1,3 @@
 ---
-pdf: /assets/otap-scholarship-application.pdf
+pdf: /assets/2023otapscholarshipapplication.pdf
 ---

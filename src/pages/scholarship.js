@@ -155,6 +155,10 @@ export default ({ location }) => {
             </p>
           </div>
         </PaperDiv>
+        <a href={applicationPDF} className="btn btn-light text-center" download>
+          <FaRegFilePdf size={20} className="text-danger" />
+          Download Application Form
+        </a>
       </PaperSection>
       <PaperSection>
         <div className="container-md d-flex flex-row flex-wrap align-items-stretch justify-content-center">
