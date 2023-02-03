@@ -1,3 +1,3 @@
 ---
-pdf: /assets/otap-transplant-times-november-2022.pdf
+pdf: /assets/otap_transplant-times-january-2023.pdf
 ---
