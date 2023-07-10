@@ -9,7 +9,7 @@ const OrganSharingChart = () => {
         <h3 className="text-center">United Network for Organ Sharing</h3>
         <h4 className="text-center">Organ: All</h4>
         <h4 className="text-center">
-          Waitlist Registrations as of February 28, 2017
+          Waitlist Registrations as of July 6, 2023
         </h4>
         <h4 className="text-center">
           Where Candidate's Permanent State Of Residence at Listing: New Mexico
@@ -30,10 +30,8 @@ const OrganSharingChart = () => {
                   <td rowSpan="3">
                     Candidate's Permanent State of Residence at Listing
                   </td>
-                  <td colSpan="12">Desired Organ</td>
-                  <td rowSpan="2" colSpan="2">
-                    Total
-                  </td>
+                  <td colSpan="16">Desired Organ</td>
+                  
                 </tr>
                 <tr>
                   <td colSpan="2">Heart</td>
@@ -43,6 +41,7 @@ const OrganSharingChart = () => {
                   <td colSpan="2">Liver</td>
                   <td colSpan="2">Lung</td>
                   <td colSpan="2">Pancreas</td>
+                  <td colSpan="2">Total</td>
                 </tr>
                 <tr>
                   <td>N</td>
@@ -68,41 +67,42 @@ const OrganSharingChart = () => {
                   <td className="text-uppercase">New Mexico</td>
 
                   {/* <!-- Heart N --> */}
-                  <td className="text-right">17</td>
+                  <td className="text-right">15</td>
                   {/* <!-- Heart %--> */}
-                  <td className="text-right">2.2</td>
+                  <td className="text-right">2.3</td>
 
                   {/* <!-- Intestine N --> */}
                   <td className="text-right"></td>
                   {/* <!-- Intestine % --> */}
                   <td className="text-right"></td>
+
                   {/* <!-- Kidney N --> */}
-                  <td className="text-right">596</td>
+                  <td className="text-right">528</td>
                   {/* <!-- Kidney % --> */}
-                  <td className="text-right">78.8</td>
+                  <td className="text-right">83.9</td>
 
                   {/* <!-- Kidney-Pancreas N --> */}
-                  <td className="text-right">5</td>
+                  <td className="text-right">14</td>
                   {/* <!-- Kidney-Pancreas % --> */}
-                  <td className="text-right">0.7</td>
+                  <td className="text-right">2.2</td>
 
                   {/* <!-- Liver N --> */}
-                  <td className="text-right">125</td>
+                  <td className="text-right">68</td>
                   {/* <!-- Liver % --> */}
-                  <td className="text-right">16.5</td>
+                  <td className="text-right">10.8</td>
 
                   {/* <!-- Lung N --> */}
-                  <td className="text-right">6</td>
+                  <td className="text-right">5</td>
                   {/* <!-- Lung % --> */}
-                  <td className="text-right">0.8</td>
+                  <td className="text-right">0.7</td>
 
                   {/* <!-- Pancreas N --> */}
-                  <td className="text-right">7</td>
+                  <td className="text-right">4</td>
                   {/* <!-- Pancreas % --> */}
-                  <td className="text-right">0.9</td>
+                  <td className="text-right">0.6</td>
 
                   {/* <!-- Total N --> */}
-                  <td className="text-right">756</td>
+                  <td className="text-right">629</td>
                   {/* <!-- Total % --> */}
                   <td className="text-right">100</td>
                 </tr>
@@ -112,7 +112,7 @@ const OrganSharingChart = () => {
         </div>
         <br />
         <div className="text-center">
-          Based on OPTN data as of February 24<sup>th</sup>, 2017.
+          Based on OPTN data as of July 6<sup>th</sup>, 2023.
         </div>
         <div className="text-center">
           Data subject to change due to future correction or submission.
